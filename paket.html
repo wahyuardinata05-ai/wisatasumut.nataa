@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+
+<title>Paket Wisata | Sumut Explore</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+
+
+<style>
+
+
+:root{
+
+--hijau:#064420;
+
+--hijau2:#0b6b3a;
+
+}
+
+
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f7faf7;
+
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+.navbar{
+
+background:rgba(6,68,32,.95);
+
+padding:15px;
+
+}
+
+
+
+.navbar-brand{
+
+font-weight:700;
+
+color:white!important;
+
+}
+
+
+
+.nav-link{
+
+color:white!important;
+
+margin-left:15px;
+
+}
+
+
+
+.nav-link:hover{
+
+color:#9be15d!important;
+
+}
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+
+height:350px;
+
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.5),
+rgba(0,0,0,.5)
+),
+
+url("img/paket.jpg");
+
+
+
+background-size:cover;
+
+background-position:center;
+
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+color:white;
+
+text-align:center;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:45px;
+
+font-weight:800;
+
+
+}
+
+
+
+
+
+/* CARD */
+
+
+.package-card{
+
+
+border:none;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+transition:.3s;
+
+
+}
+
+
+
+.package-card:hover{
+
+
+transform:translateY(-10px);
+
+
+}
+
+
+
+
+.package-card img{
+
+
+height:220px;
+
+object-fit:cover;
+
+
+}
+
+
+
+
+.btn-main{
+
+
+background:#0b6b3a;
+
+color:white;
+
+border-radius:30px;
+
+
+}
+
+
+
+.btn-main:hover{
+
+
+background:#064420;
+
+color:white;
+
+
+}
+
+
+
+
+
+footer{
+
+
+background:#032b16;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+
+<!-- NAVBAR -->
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+
+<div class="container">
+
+
+<a class="navbar-brand"
+href="index.html">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</a>
+
+
+
+
+
+<button class="navbar-toggler bg-light"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+
+<span class="navbar-toggler-icon"></span>
+
+
+</button>
+
+
+
+
+
+
+
+<div class="collapse navbar-collapse"
+id="menu">
+
+
+<ul class="navbar-nav ms-auto">
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="destinasi.html">
+
+Destinasi
+
+</a>
+
+</li>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link active"
+href="paket.html">
+
+Paket
+
+</a>
+
+</li>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="galeri.html">
+
+Galeri
+
+</a>
+
+</li>
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="pemesanan.html">
+
+Pemesanan
+
+</a>
+
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+
+
+<div>
+
+
+<h1>
+
+Paket Wisata Sumatera Utara
+
+</h1>
+
+
+<p>
+
+Pilihan perjalanan terbaik untuk liburan Anda
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<div class="container py-5">
+
+
+
+
+
+<!-- ALERT PROMO -->
+
+
+<div class="alert alert-success alert-dismissible fade show">
+
+
+<i class="bi bi-megaphone-fill"></i>
+
+
+<strong>
+
+Promo Spesial!
+
+</strong>
+
+
+Diskon 15% untuk pemesanan paket sebelum akhir bulan.
+
+
+<button class="btn-close"
+data-bs-dismiss="alert">
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<h2 class="text-center fw-bold mb-5">
+
+Pilihan Paket Wisata
+
+</h2>
+
+
+
+
+
+
+
+
+
+<div class="row g-4">
+
+
+
+
+
+
+
+
+<!-- CARD 1 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+
+<img src="imgdanau-toba.jpg"
+class="card-img-top">
+
+
+
+
+
+<div class="card-body">
+
+
+
+<span class="badge bg-success">
+
+Populer
+
+</span>
+
+
+
+<h4 class="mt-3">
+
+Paket Danau Toba
+
+</h4>
+
+
+
+<p>
+
+2 Hari 1 Malam menikmati
+keindahan Danau Toba.
+
+</p>
+
+
+
+<h5>
+
+Rp1.500.000
+
+</h5>
+
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+style="width:90%">
+
+90%
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="pemesanan.html"
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- CARD 2 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+<img src="imgsamosir.jpg"
+class="card-img-top">
+
+
+<div class="card-body">
+
+
+<span class="badge bg-success">
+
+Budaya
+
+</span>
+
+
+<h4 class="mt-3">
+
+Paket Samosir
+
+</h4>
+
+
+<p>
+
+Wisata budaya Batak dan
+pemandangan Danau Toba.
+
+</p>
+
+
+<h5>
+
+Rp1.200.000
+
+</h5>
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+style="width:80%">
+
+80%
+
+</div>
+
+
+</div>
+
+
+
+
+<a href="pemesanan.html"
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- CARD 3 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+<img src="imgsipiso-piso.jpg"
+class="card-img-top">
+
+
+<div class="card-body">
+
+
+<span class="badge bg-success">
+
+Alam
+
+</span>
+
+
+
+<h4 class="mt-3">
+
+Paket Sipiso-piso
+
+</h4>
+
+
+
+<p>
+
+Menikmati air terjun dan
+alam pegunungan Karo.
+
+</p>
+
+
+
+<h5>
+
+Rp900.000
+
+</h5>
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+style="width:75%">
+
+75%
+
+</div>
+
+
+</div>
+
+
+
+
+<a href="pemesanan.html"
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- ================= CARD 4 BUKIT LAWANG ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+
+<img src="imgbukit-lawang.jpg"
+
+class="card-img-top">
+
+
+
+
+
+<div class="card-body">
+
+
+<span class="badge bg-success">
+
+Adventure
+
+</span>
+
+
+
+<h4 class="mt-3">
+
+Paket Bukit Lawang
+
+</h4>
+
+
+
+
+<p>
+
+Eksplorasi hutan Gunung Leuser
+dan wisata orangutan Sumatera.
+
+</p>
+
+
+
+
+<h5>
+
+Rp1.300.000
+
+</h5>
+
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+
+style="width:85%">
+
+85%
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="pemesanan.html"
+
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= CARD 5 BERASTAGI ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+
+<img src="imgberastagi.jpg"
+
+class="card-img-top">
+
+
+
+
+
+<div class="card-body">
+
+
+<span class="badge bg-success">
+
+Pegunungan
+
+</span>
+
+
+
+
+<h4 class="mt-3">
+
+Paket Berastagi
+
+</h4>
+
+
+
+
+<p>
+
+Menikmati udara sejuk,
+Gunung Sibayak, dan kuliner Karo.
+
+</p>
+
+
+
+
+<h5>
+
+Rp800.000
+
+</h5>
+
+
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+
+style="width:78%">
+
+78%
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="pemesanan.html"
+
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= CARD 6 NIAS ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card package-card">
+
+
+
+<img src="imgnias.jpg"
+
+class="card-img-top">
+
+
+
+
+
+<div class="card-body">
+
+
+<span class="badge bg-success">
+
+Pantai
+
+</span>
+
+
+
+
+<h4 class="mt-3">
+
+Paket Pulau Nias
+
+</h4>
+
+
+
+
+<p>
+
+Wisata pantai, surfing,
+dan budaya khas Nias yang indah.
+
+</p>
+
+
+
+
+<h5>
+
+Rp2.000.000
+
+</h5>
+
+
+
+
+
+<p>
+
+Popularitas
+
+</p>
+
+
+
+<div class="progress">
+
+
+<div class="progress-bar"
+
+style="width:88%">
+
+88%
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="pemesanan.html"
+
+class="btn btn-main mt-3 w-100">
+
+Pesan Sekarang
+
+</a>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- END ROW -->
+
+
+
+
+
+
+
+
+
+<!-- ================= SPINNER LOADING ================= -->
+
+
+<div class="text-center mt-5">
+
+
+<button class="btn btn-success px-4"
+
+onclick="loadingPaket()">
+
+
+Lihat Proses Pemesanan
+
+
+</button>
+
+
+
+
+
+<div id="loading"
+
+class="mt-3 d-none">
+
+
+<div class="spinner-border text-success">
+
+</div>
+
+
+
+<p class="mt-2">
+
+Memproses data paket...
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- END CONTAINER -->
+
+
+
+
+
+
+
+
+
+
+<!-- ================= FOOTER ================= -->
+
+
+<footer class="py-5 mt-5 text-white">
+
+
+<div class="container">
+
+
+<div class="row g-4">
+
+
+
+<div class="col-lg-4">
+
+
+<h4 class="fw-bold">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</h4>
+
+
+
+<p>
+
+Temukan perjalanan terbaik
+di Sumatera Utara.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5>
+
+Menu
+
+</h5>
+
+
+<p>
+
+<a href="index.html"
+
+class="text-white text-decoration-none">
+
+Beranda
+
+</a>
+
+</p>
+
+
+
+
+<p>
+
+<a href="destinasi.html"
+
+class="text-white text-decoration-none">
+
+Destinasi
+
+</a>
+
+</p>
+
+
+
+
+
+<p>
+
+<a href="pemesanan.html"
+
+class="text-white text-decoration-none">
+
+Pemesanan
+
+</a>
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5>
+
+Kontak
+
+</h5>
+
+
+
+<p>
+
+<i class="bi bi-envelope"></i>
+
+info@sumutexplore.com
+
+</p>
+
+
+
+
+<p>
+
+<i class="bi bi-telephone"></i>
+
++62 812 3456 7890
+
+</p>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+<div class="text-center">
+
+© 2026 Sumut Explore
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+function loadingPaket(){
+
+
+let load=document.getElementById("loading");
+
+
+load.classList.remove("d-none");
+
+
+
+setTimeout(function(){
+
+
+load.classList.add("d-none");
+
+
+alert("Paket siap dipesan. Silahkan lanjutkan ke form pemesanan.");
+
+
+},2000);
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

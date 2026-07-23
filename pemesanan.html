@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+
+
+<title>Form Pemesanan | Sumut Explore</title>
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+
+
+
+
+<style>
+
+
+:root{
+
+--hijau:#064420;
+
+--hijau2:#0b6b3a;
+
+}
+
+
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f7faf7;
+
+}
+
+
+
+
+
+.navbar{
+
+background:rgba(6,68,32,.95);
+
+padding:15px;
+
+}
+
+
+
+
+.navbar-brand{
+
+color:white!important;
+
+font-weight:700;
+
+}
+
+
+
+.nav-link{
+
+color:white!important;
+
+margin-left:15px;
+
+}
+
+
+
+.nav-link:hover{
+
+color:#9be15d!important;
+
+}
+
+
+
+
+
+.hero{
+
+
+height:350px;
+
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.55)
+),
+
+url("img/pemesanan.jpg");
+
+
+
+background-size:cover;
+
+background-position:center;
+
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+color:white;
+
+text-align:center;
+
+
+}
+
+
+
+
+.hero h1{
+
+font-size:45px;
+
+font-weight:800;
+
+}
+
+
+
+
+
+
+.form-card{
+
+
+background:white;
+
+border-radius:25px;
+
+padding:40px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+
+}
+
+
+
+
+
+
+
+.btn-main{
+
+
+background:#0b6b3a;
+
+color:white;
+
+border-radius:30px;
+
+padding:12px 35px;
+
+
+}
+
+
+.btn-main:hover{
+
+
+background:#064420;
+
+color:white;
+
+
+}
+
+
+
+
+footer{
+
+
+background:#032b16;
+
+}
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+<!-- NAVBAR -->
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+
+<div class="container">
+
+
+<a class="navbar-brand"
+
+href="index.html">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</a>
+
+
+
+
+
+
+
+<button class="navbar-toggler bg-light"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#menu">
+
+
+<span class="navbar-toggler-icon"></span>
+
+
+</button>
+
+
+
+
+
+
+
+<div class="collapse navbar-collapse"
+
+id="menu">
+
+
+<ul class="navbar-nav ms-auto">
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="destinasi.html">
+
+Destinasi
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="paket.html">
+
+Paket
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="galeri.html">
+
+Galeri
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="testimoni.html">
+
+Testimoni
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link active"
+
+href="pemesanan.html">
+
+Pemesanan
+
+</a>
+
+</li>
+
+
+
+
+</ul>
+
+
+
+</div>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+
+
+<div>
+
+
+<h1>
+
+Form Pemesanan Wisata
+
+</h1>
+
+
+
+<p>
+
+Rencanakan perjalanan terbaik Anda
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<div class="container py-5">
+
+
+
+
+
+<nav aria-label="breadcrumb">
+
+
+<ol class="breadcrumb">
+
+
+<li class="breadcrumb-item">
+
+<a href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+<li class="breadcrumb-item active">
+
+Pemesanan
+
+</li>
+
+
+
+</ol>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="row justify-content-center">
+
+
+<div class="col-lg-8">
+
+
+
+
+
+<div class="form-card">
+
+
+
+<h2 class="text-center fw-bold mb-4">
+
+Pesan Paket Wisata
+
+</h2>
+
+
+
+
+
+
+
+
+
+<form id="orderForm"
+class="needs-validation"
+novalidate>
+
+
+
+
+
+
+
+
+<!-- FLOATING LABEL -->
+
+
+<div class="form-floating mb-3">
+
+
+<input type="text"
+
+class="form-control"
+
+id="nama"
+
+placeholder="Nama"
+
+required>
+
+
+
+<label for="nama">
+
+Nama Lengkap
+
+</label>
+
+
+<div class="invalid-feedback">
+
+Nama wajib diisi
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-floating mb-3">
+
+
+<input type="email"
+
+class="form-control"
+
+id="email"
+
+placeholder="Email"
+
+required>
+
+
+
+<label for="email">
+
+Email
+
+</label>
+
+
+
+<div class="invalid-feedback">
+
+Email tidak valid
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- INPUT GROUP -->
+
+
+<div class="input-group mb-3">
+
+
+<span class="input-group-text">
+
++62
+
+</span>
+
+
+
+<input type="number"
+
+class="form-control"
+
+placeholder="Nomor HP"
+
+required>
+
+
+
+<div class="invalid-feedback">
+
+Nomor HP wajib diisi
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="form-floating mb-3">
+
+
+<select class="form-select"
+
+id="destinasi"
+
+required>
+
+
+<option value="">Pilih Destinasi</option>
+
+<option>
+
+Danau Toba
+
+</option>
+
+
+<option>
+
+Pulau Samosir
+
+</option>
+
+
+<option>
+
+Sipiso-piso
+
+</option>
+
+
+<option>
+
+Bukit Lawang
+
+</option>
+
+
+<option>
+
+Berastagi
+
+</option>
+
+
+<option>
+
+Pulau Nias
+
+</option>
+
+
+</select>
+
+
+
+<label>
+
+Destinasi Wisata
+
+</label>
+
+
+</div>
+
+<!-- PILIH PAKET -->
+
+
+<div class="form-floating mb-3">
+
+
+<select class="form-select"
+
+id="paket"
+
+required>
+
+
+<option value="">
+
+Pilih Paket Wisata
+
+</option>
+
+
+<option>
+
+Paket Danau Toba
+
+</option>
+
+
+<option>
+
+Paket Samosir
+
+</option>
+
+
+<option>
+
+Paket Sipiso-piso
+
+</option>
+
+
+<option>
+
+Paket Bukit Lawang
+
+</option>
+
+
+<option>
+
+Paket Berastagi
+
+</option>
+
+
+<option>
+
+Paket Nias
+
+</option>
+
+
+
+</select>
+
+
+
+<label>
+
+Paket Wisata
+
+</label>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- JUMLAH ORANG -->
+
+
+<div class="form-floating mb-3">
+
+
+<input type="number"
+
+class="form-control"
+
+id="jumlah"
+
+placeholder="Jumlah"
+
+required>
+
+
+
+<label>
+
+Jumlah Orang
+
+</label>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- TANGGAL -->
+
+
+<div class="form-floating mb-3">
+
+
+<input type="date"
+
+class="form-control"
+
+id="tanggal"
+
+required>
+
+
+
+<label>
+
+Tanggal Keberangkatan
+
+</label>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- CATATAN -->
+
+
+<div class="form-floating mb-3">
+
+
+<textarea class="form-control"
+
+style="height:120px"
+
+placeholder="Catatan"
+
+id="catatan"></textarea>
+
+
+
+<label>
+
+Catatan Tambahan
+
+</label>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- CHECKBOX -->
+
+
+<div class="form-check mb-4">
+
+
+<input class="form-check-input"
+
+type="checkbox"
+
+id="setuju"
+
+required>
+
+
+
+<label class="form-check-label"
+
+for="setuju">
+
+
+Saya menyetujui syarat dan ketentuan pemesanan
+
+
+</label>
+
+
+
+<div class="invalid-feedback">
+
+Harus menyetujui terlebih dahulu
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BUTTON -->
+
+
+<button type="submit"
+
+class="btn btn-main w-100">
+
+
+<span id="spinner"
+
+class="spinner-border spinner-border-sm d-none">
+
+</span>
+
+
+Kirim Pemesanan
+
+
+</button>
+
+
+
+
+
+
+
+</form>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- TOAST -->
+
+
+<div class="position-fixed bottom-0 end-0 p-3">
+
+
+<div id="successToast"
+
+class="toast">
+
+
+<div class="toast-header">
+
+
+<strong class="me-auto text-success">
+
+Sumut Explore
+
+</strong>
+
+
+
+<button type="button"
+
+class="btn-close"
+
+data-bs-dismiss="toast">
+
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="toast-body">
+
+
+Pesanan berhasil dikirim.
+Kami akan menghubungi Anda segera.
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer class="py-5 mt-5 text-white">
+
+
+<div class="container">
+
+
+<div class="row g-4">
+
+
+
+<div class="col-lg-4">
+
+
+<h4 class="fw-bold">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</h4>
+
+
+<p>
+
+
+Website galeri wisata
+Sumatera Utara modern.
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5>
+
+Menu
+
+</h5>
+
+
+<p>
+
+<a href="index.html"
+
+class="text-white text-decoration-none">
+
+Beranda
+
+</a>
+
+</p>
+
+
+
+
+<p>
+
+<a href="destinasi.html"
+
+class="text-white text-decoration-none">
+
+Destinasi
+
+</a>
+
+</p>
+
+
+
+
+<p>
+
+<a href="galeri.html"
+
+class="text-white text-decoration-none">
+
+Galeri
+
+</a>
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5>
+
+Kontak
+
+</h5>
+
+
+
+<p>
+
+<i class="bi bi-envelope"></i>
+
+info@sumutexplore.com
+
+</p>
+
+
+
+<p>
+
+<i class="bi bi-telephone"></i>
+
++62 812 3456 7890
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+<div class="text-center">
+
+
+© 2026 Sumut Explore
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+// BOOTSTRAP VALIDATION + SPINNER + TOAST
+
+
+const form =
+document.getElementById("orderForm");
+
+
+
+form.addEventListener("submit",function(event){
+
+
+
+event.preventDefault();
+
+
+
+if(!form.checkValidity()){
+
+
+event.stopPropagation();
+
+
+form.classList.add("was-validated");
+
+
+return;
+
+
+}
+
+
+
+
+
+
+
+let spinner =
+document.getElementById("spinner");
+
+
+
+spinner.classList.remove("d-none");
+
+
+
+
+
+
+
+
+setTimeout(function(){
+
+
+
+spinner.classList.add("d-none");
+
+
+
+
+
+let toast =
+new bootstrap.Toast(
+document.getElementById("successToast")
+);
+
+
+
+toast.show();
+
+
+
+
+
+form.reset();
+
+
+form.classList.remove("was-validated");
+
+
+
+},2000);
+
+
+
+
+
+});
+
+
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>

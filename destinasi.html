@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Destinasi Wisata Sumatera Utara</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+
+:root{
+
+--hijau:#064420;
+--hijau2:#0b6b3a;
+--hijau3:#3fa34d;
+--cream:#f7f4ec;
+
+}
+
+
+
+*{
+
+box-sizing:border-box;
+
+}
+
+
+
+body{
+
+font-family:'Poppins',sans-serif;
+background:#fff;
+
+}
+
+
+
+
+/* NAVBAR */
+
+
+.navbar{
+
+background:rgba(6,68,32,.95);
+backdrop-filter:blur(10px);
+padding:15px 0;
+
+}
+
+
+
+.navbar-brand{
+
+font-size:22px;
+font-weight:700;
+color:white!important;
+
+}
+
+
+
+.navbar-brand i{
+
+color:#9be15d;
+
+}
+
+
+
+.nav-link{
+
+color:white!important;
+margin-left:15px;
+transition:.3s;
+
+}
+
+
+
+.nav-link:hover{
+
+color:#9be15d!important;
+
+}
+
+
+
+
+.dropdown-menu{
+
+border:none;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+
+.dropdown-item:hover{
+
+background:#e8f5e9;
+
+}
+
+
+
+
+
+
+/* HERO TITLE */
+
+
+.page-header{
+
+height:350px;
+background:
+
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.55)
+),
+
+url("img/danau-toba.jpg");
+
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+
+}
+
+
+
+.page-header h1{
+
+font-size:45px;
+font-weight:800;
+
+}
+
+
+
+
+/* BREADCRUMB */
+
+
+.breadcrumb{
+
+background:#f7f4ec;
+padding:15px 20px;
+border-radius:15px;
+
+}
+
+
+
+.breadcrumb-item a{
+
+text-decoration:none;
+color:#0b6b3a;
+
+}
+
+
+
+
+
+
+/* FILTER */
+
+
+.filter-box{
+
+background:#f7f4ec;
+padding:30px;
+border-radius:20px;
+
+}
+
+
+
+
+.btn-filter{
+
+border:1px solid #064420;
+color:#064420;
+
+}
+
+
+
+.btn-filter:hover,
+.btn-filter.active{
+
+background:#064420;
+color:white;
+
+}
+
+
+
+
+
+/* CARD */
+
+
+.destination-card{
+
+border:none;
+overflow:hidden;
+border-radius:20px;
+transition:.4s;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+.destination-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+.destination-card img{
+
+height:240px;
+object-fit:cover;
+
+}
+
+
+
+.btn-main{
+
+background:#0b6b3a;
+color:white;
+border-radius:30px;
+padding:10px 25px;
+
+}
+
+
+
+.btn-main:hover{
+
+background:#064420;
+color:white;
+
+}
+
+
+
+.category-badge{
+
+background:#e8f5e9;
+color:#064420;
+
+}
+
+
+
+
+
+footer{
+
+background:#032b16;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+
+<div class="container">
+
+
+<a class="navbar-brand" href="index.html">
+
+<i class="bi bi-compass-fill"></i>
+Sumut Explore
+
+</a>
+
+
+
+<button class="navbar-toggler bg-light"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menuNavbar">
+
+
+<span class="navbar-toggler-icon"></span>
+
+
+</button>
+
+
+
+
+<div class="collapse navbar-collapse"
+id="menuNavbar">
+
+
+<ul class="navbar-nav ms-auto">
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link active"
+href="destinasi.html">
+
+Destinasi Wisata
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item dropdown">
+
+
+<a class="nav-link dropdown-toggle"
+href="#"
+data-bs-toggle="dropdown">
+
+Detail Destinasi
+
+</a>
+
+
+
+<ul class="dropdown-menu">
+
+
+<li>
+<a class="dropdown-item"
+href="detail-danau-toba.html">
+
+Danau Toba
+
+</a>
+</li>
+
+
+<li>
+<a class="dropdown-item"
+href="detail-samosir.html">
+
+Samosir
+
+</a>
+</li>
+
+
+<li>
+<a class="dropdown-item"
+href="detail-sipiso-piso.html">
+
+Sipiso-piso
+
+</a>
+</li>
+
+
+<li>
+<a class="dropdown-item"
+href="detail-bukit-lawang.html">
+
+Bukit Lawang
+
+</a>
+</li>
+
+
+<li>
+<a class="dropdown-item"
+href="detail-berastagi.html">
+
+Berastagi
+
+</a>
+</li>
+
+
+<li>
+<a class="dropdown-item"
+href="detail-nias.html">
+
+Nias
+
+</a>
+</li>
+
+
+
+</ul>
+
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="paket.html">
+
+Paket Wisata
+
+</a>
+
+</li>
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="galeri.html">
+
+Galeri
+
+</a>
+
+</li>
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="testimoni.html">
+
+Testimoni
+
+</a>
+
+</li>
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="pemesanan.html">
+
+Pemesanan
+
+</a>
+
+</li>
+
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<!-- HEADER -->
+
+
+<section class="page-header">
+
+
+<div>
+
+
+<h1>
+
+Destinasi Wisata
+
+</h1>
+
+
+<p>
+
+Jelajahi keindahan Sumatera Utara
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<div class="container py-5">
+
+
+<!-- BREADCRUMB -->
+
+
+<nav aria-label="breadcrumb">
+
+
+<ol class="breadcrumb">
+
+
+<li class="breadcrumb-item">
+
+<a href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+<li class="breadcrumb-item active">
+
+Destinasi
+
+</li>
+
+
+</ol>
+
+
+</nav>
+
+
+
+
+
+
+<!-- FILTER -->
+
+
+<div class="filter-box mt-4 mb-5">
+
+
+
+<h4 class="fw-bold mb-3">
+
+Filter Wisata
+
+</h4>
+
+
+
+
+
+<!-- DROPDOWN -->
+
+
+<div class="dropdown mb-3">
+
+
+<button class="btn btn-success dropdown-toggle"
+data-bs-toggle="dropdown">
+
+Pilih Kategori
+
+</button>
+
+
+<ul class="dropdown-menu">
+
+
+<li>
+
+<a class="dropdown-item filterDropdown"
+data-filter="all">
+
+Semua
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a class="dropdown-item filterDropdown"
+data-filter="alam">
+
+Alam
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a class="dropdown-item filterDropdown"
+data-filter="budaya">
+
+Budaya
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a class="dropdown-item filterDropdown"
+data-filter="pantai">
+
+Pantai
+
+</a>
+
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<!-- BUTTON GROUP -->
+
+
+<div class="btn-group"
+role="group">
+
+
+<button class="btn btn-filter active"
+data-filter="all">
+
+Semua
+
+</button>
+
+
+<button class="btn btn-filter"
+data-filter="alam">
+
+Alam
+
+</button>
+
+
+<button class="btn btn-filter"
+data-filter="budaya">
+
+Budaya
+
+</button>
+
+
+<button class="btn btn-filter"
+data-filter="pantai">
+
+Pantai
+
+</button>
+
+
+</div>
+
+
+</div><!-- ================= LIST DESTINASI ================= -->
+
+<section class="mt-5">
+
+
+<div class="row g-4" id="destinationContainer">
+
+
+
+<!-- DANU TOBA -->
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="alam">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgdanau-toba.jpg"
+class="card-img-top"
+alt="Danau Toba">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.9 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Danau Toba
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Kabupaten Toba
+
+</p>
+
+
+
+<p>
+
+Danau vulkanik terbesar di Asia Tenggara
+dengan pemandangan alam yang menakjubkan.
+
+</p>
+
+
+
+<a href="detail-danau-toba.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- SAMOSIR -->
+
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="budaya">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgsamosir.jpg"
+class="card-img-top"
+alt="Pulau Samosir">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.8 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Pulau Samosir
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Kabupaten Samosir
+
+</p>
+
+
+
+<p>
+
+Pulau eksotis di tengah Danau Toba
+dengan budaya Batak yang kuat.
+
+</p>
+
+
+
+<a href="detail-samosir.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- SIPISO PISO -->
+
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="alam">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgsipiso-piso.jpg"
+class="card-img-top"
+alt="Air Terjun Sipiso-piso">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.8 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Air Terjun Sipiso-piso
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Kabupaten Karo
+
+</p>
+
+
+
+<p>
+
+Air terjun tinggi dengan panorama
+pegunungan yang indah.
+
+</p>
+
+
+
+<a href="detail-sipiso-piso.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- BUKIT LAWANG -->
+
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="alam">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgbukit-lawang.jpg"
+class="card-img-top"
+alt="Bukit Lawang">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.7 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Bukit Lawang
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Langkat
+
+</p>
+
+
+
+<p>
+
+Destinasi ekowisata dengan hutan tropis
+dan habitat orangutan.
+
+</p>
+
+
+
+<a href="detail-bukit-lawang.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BERASTAGI -->
+
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="alam">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgberastagi.jpg"
+class="card-img-top"
+alt="Berastagi">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.7 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Berastagi
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Kabupaten Karo
+
+</p>
+
+
+
+<p>
+
+Kota wisata pegunungan dengan udara
+sejuk dan pemandangan gunung.
+
+</p>
+
+
+
+<a href="detail-berastagi.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- NIAS -->
+
+
+<div class="col-lg-4 col-md-6 destination-item"
+data-category="pantai">
+
+
+<div class="card destination-card h-100">
+
+
+<img src="imgnias.jpg"
+class="card-img-top"
+alt="Pulau Nias">
+
+
+
+<div class="card-body">
+
+
+<span class="badge category-badge mb-2">
+
+⭐ 4.9 / 5
+
+</span>
+
+
+
+<h5 class="fw-bold">
+
+Pulau Nias
+
+</h5>
+
+
+
+<p class="text-muted">
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Kepulauan Nias
+
+</p>
+
+
+
+<p>
+
+Pulau dengan pantai indah,
+budaya lompat batu, dan ombak dunia.
+
+</p>
+
+
+
+<a href="detail-nias.html"
+class="btn btn-main">
+
+Lihat Detail
+
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="py-5 mt-5 text-white">
+
+
+<div class="container">
+
+
+<div class="row g-4">
+
+
+
+<div class="col-lg-4">
+
+
+<h4 class="fw-bold">
+
+<i class="bi bi-compass-fill"></i>
+Sumut Explore
+
+</h4>
+
+
+<p>
+
+Menyediakan informasi destinasi wisata
+terbaik Sumatera Utara.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5 class="fw-bold">
+
+Menu
+
+</h5>
+
+
+<ul class="list-unstyled">
+
+
+<li>
+<a href="index.html"
+class="text-white text-decoration-none">
+
+Beranda
+
+</a>
+</li>
+
+
+<li>
+<a href="destinasi.html"
+class="text-white text-decoration-none">
+
+Destinasi
+
+</a>
+</li>
+
+
+<li>
+<a href="paket.html"
+class="text-white text-decoration-none">
+
+Paket Wisata
+
+</a>
+</li>
+
+
+<li>
+<a href="pemesanan.html"
+class="text-white text-decoration-none">
+
+Pemesanan
+
+</a>
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5 class="fw-bold">
+
+Kontak
+
+</h5>
+
+
+<p>
+
+<i class="bi bi-envelope"></i>
+
+info@sumutexplore.com
+
+</p>
+
+
+<p>
+
+<i class="bi bi-telephone"></i>
+
++62 812 3456 7890
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+<hr>
+
+
+<div class="text-center">
+
+
+© 2026 Sumut Explore | Galeri Wisata Sumatera Utara
+
+
+</div>
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<script>
+
+
+// ================= FILTER DESTINASI =================
+
+
+
+const filterButtons =
+document.querySelectorAll("[data-filter]");
+
+
+
+const destinationItems =
+document.querySelectorAll(".destination-item");
+
+
+
+
+function filterDestination(category){
+
+
+destinationItems.forEach(item=>{
+
+
+let itemCategory =
+item.getAttribute("data-category");
+
+
+
+if(category==="all" || itemCategory===category){
+
+
+item.style.display="block";
+
+
+item.style.animation=
+"fade .5s";
+
+
+}else{
+
+
+item.style.display="none";
+
+
+}
+
+
+
+});
+
+
+}
+
+
+
+
+// BUTTON GROUP
+
+
+filterButtons.forEach(button=>{
+
+
+button.addEventListener("click",function(){
+
+
+let category =
+this.dataset.filter;
+
+
+
+filterDestination(category);
+
+
+
+// mengubah tombol aktif
+
+
+document.querySelectorAll(".btn-filter")
+.forEach(btn=>{
+
+btn.classList.remove("active");
+
+});
+
+
+
+if(this.classList.contains("btn-filter")){
+
+this.classList.add("active");
+
+}
+
+
+
+});
+
+
+});
+
+
+
+
+
+// DROPDOWN FILTER
+
+
+document.querySelectorAll(".filterDropdown")
+.forEach(item=>{
+
+
+item.addEventListener("click",function(e){
+
+
+e.preventDefault();
+
+
+
+let category =
+this.dataset.filter;
+
+
+
+filterDestination(category);
+
+
+
+});
+
+
+});
+
+
+
+
+
+
+// ANIMASI FILTER
+
+
+const style =
+document.createElement("style");
+
+
+style.innerHTML=`
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+transform:translateY(20px);
+
+}
+
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+`;
+
+
+document.head.appendChild(style);
+
+
+
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Galeri Wisata | Sumut Explore</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+
+
+<style>
+
+
+:root{
+
+--hijau:#064420;
+
+--hijau2:#0b6b3a;
+
+}
+
+
+
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f7faf7;
+
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+.navbar{
+
+background:rgba(6,68,32,.95);
+
+padding:15px;
+
+}
+
+
+
+.navbar-brand{
+
+font-weight:700;
+
+color:white!important;
+
+}
+
+
+
+.nav-link{
+
+color:white!important;
+
+margin-left:15px;
+
+}
+
+
+
+.nav-link:hover{
+
+color:#9be15d!important;
+
+}
+
+
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+
+height:350px;
+
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.55)
+),
+
+
+url("img/galeri.jpg");
+
+
+
+background-size:cover;
+
+background-position:center;
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+color:white;
+
+text-align:center;
+
+
+}
+
+
+
+.hero h1{
+
+
+font-size:45px;
+
+font-weight:800;
+
+
+}
+
+
+
+
+
+
+
+/* GALERI CARD */
+
+
+.gallery-card{
+
+
+border:none;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+transition:.3s;
+
+
+}
+
+
+
+.gallery-card:hover{
+
+
+transform:translateY(-8px);
+
+
+}
+
+
+
+
+.gallery-card img{
+
+
+height:240px;
+
+width:100%;
+
+object-fit:cover;
+
+
+}
+
+
+
+
+
+
+.btn-main{
+
+
+background:#0b6b3a;
+
+color:white;
+
+border-radius:30px;
+
+
+}
+
+
+
+.btn-main:hover{
+
+
+background:#064420;
+
+color:white;
+
+
+}
+
+
+
+
+footer{
+
+
+background:#032b16;
+
+}
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+
+
+<!-- NAVBAR -->
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+
+<div class="container">
+
+
+<a class="navbar-brand"
+
+href="index.html">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</a>
+
+
+
+
+
+
+
+
+<button class="navbar-toggler bg-light"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#menu">
+
+
+<span class="navbar-toggler-icon"></span>
+
+
+</button>
+
+
+
+
+
+
+
+
+
+<div class="collapse navbar-collapse"
+
+id="menu">
+
+
+
+<ul class="navbar-nav ms-auto">
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="destinasi.html">
+
+Destinasi
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="paket.html">
+
+Paket
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link active"
+
+href="galeri.html">
+
+Galeri
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="pemesanan.html">
+
+Pemesanan
+
+</a>
+
+</li>
+
+
+
+</ul>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+
+
+<div>
+
+
+<h1>
+
+Galeri Wisata Sumatera Utara
+
+</h1>
+
+
+<p>
+
+Kumpulan keindahan alam dan budaya Sumut
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<div class="container py-5">
+
+
+
+
+
+
+
+<!-- BREADCRUMB -->
+
+
+<nav aria-label="breadcrumb">
+
+
+<ol class="breadcrumb">
+
+
+<li class="breadcrumb-item">
+
+<a href="index.html">
+
+Beranda
+
+</a>
+
+</li>
+
+
+
+<li class="breadcrumb-item active">
+
+Galeri
+
+</li>
+
+
+
+</ol>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<h2 class="text-center fw-bold mb-5">
+
+Koleksi Foto Wisata
+
+</h2>
+
+
+
+
+
+
+
+
+<div class="row g-4">
+
+
+
+<!-- FOTO 1 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgdanau-toba.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Danau Toba
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto1">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- FOTO 2 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgsamosir.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Pulau Samosir
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto2">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- FOTO 3 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgsipiso-piso.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Air Terjun Sipiso-piso
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto3">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- ================= FOTO 4 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgbukit-lawang.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Bukit Lawang
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto4">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 5 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgberastagi.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Berastagi
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto5">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 6 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgnias.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Pulau Nias
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto6">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 7 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imggunung-sibayak.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Gunung Sibayak
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto7">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 8 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgorangutan.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Orangutan Sumatera
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto8">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 9 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgpantai-nias.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Pantai Nias
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto9">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 10 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imglompat-batu.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Budaya Nias
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto10">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 11 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgpasar-berastagi.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Pasar Berastagi
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto11">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= FOTO 12 ================= -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="card gallery-card">
+
+
+
+<img src="imgdanau-toba2.jpg">
+
+
+
+
+
+<div class="card-body">
+
+
+<h5>
+
+Panorama Danau Toba
+
+</h5>
+
+
+
+<button class="btn btn-main"
+
+data-bs-toggle="modal"
+
+data-bs-target="#foto12">
+
+Lihat Foto
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<!-- END ROW -->
+
+
+
+
+
+
+
+
+
+<!-- ================= PAGINATION ================= -->
+
+
+<nav class="mt-5">
+
+
+<ul class="pagination justify-content-center">
+
+
+
+<li class="page-item active">
+
+<a class="page-link"
+href="#">
+
+1
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="page-item">
+
+<a class="page-link"
+href="galeri.html">
+
+2
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="page-item">
+
+<a class="page-link"
+href="galeri.html">
+
+3
+
+</a>
+
+</li>
+
+
+
+</ul>
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- END CONTAINER -->
+
+
+
+
+
+
+
+
+<!-- ================= MODAL FOTO ================= -->
+
+
+<div class="modal fade" id="foto1">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgdanau-toba.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="modal fade" id="foto2">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgsamosir.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto3">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgsipiso-piso.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto4">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgbukit-lawang.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto5">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgberastagi.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto6">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgnias.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto7">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imggunung-sibayak.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto8">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgorangutan.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto9">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgpantai-nias.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto10">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imglompat-batu.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="foto11">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgpasar-berastagi.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="modal fade" id="foto12">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+
+<img src="imgdanau-toba2.jpg"
+
+class="w-100 rounded">
+
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+
+<footer class="py-5 mt-5 text-white">
+
+
+<div class="container">
+
+
+<div class="row g-4">
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h4 class="fw-bold">
+
+
+<i class="bi bi-compass-fill"></i>
+
+Sumut Explore
+
+
+</h4>
+
+
+
+<p>
+
+Menjelajahi keindahan alam,
+budaya, dan destinasi wisata
+Sumatera Utara.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5 class="fw-bold">
+
+Menu Cepat
+
+</h5>
+
+
+
+<p>
+
+<a href="index.html"
+
+class="text-white text-decoration-none">
+
+Beranda
+
+</a>
+
+</p>
+
+
+
+
+<p>
+
+<a href="destinasi.html"
+
+class="text-white text-decoration-none">
+
+Destinasi
+
+</a>
+
+</p>
+
+
+
+
+
+<p>
+
+<a href="paket.html"
+
+class="text-white text-decoration-none">
+
+Paket Wisata
+
+</a>
+
+</p>
+
+
+
+
+
+<p>
+
+<a href="pemesanan.html"
+
+class="text-white text-decoration-none">
+
+Pemesanan
+
+</a>
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4">
+
+
+<h5 class="fw-bold">
+
+Hubungi Kami
+
+</h5>
+
+
+
+
+<p>
+
+<i class="bi bi-envelope-fill"></i>
+
+info@sumutexplore.com
+
+</p>
+
+
+
+
+<p>
+
+<i class="bi bi-telephone-fill"></i>
+
++62 812 3456 7890
+
+</p>
+
+
+
+
+
+<p>
+
+<i class="bi bi-geo-alt-fill"></i>
+
+Sumatera Utara, Indonesia
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<hr>
+
+
+
+<div class="text-center">
+
+
+<p class="mb-0">
+
+
+© 2026 Sumut Explore.
+All Rights Reserved.
+
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+
+<script>
+
+
+// pagination visual function
+
+
+const pageLinks =
+document.querySelectorAll(".pagination .page-link");
+
+
+
+pageLinks.forEach(link => {
+
+
+
+link.addEventListener("click", function(e){
+
+
+e.preventDefault();
+
+
+
+
+pageLinks.forEach(item=>{
+
+item.parentElement.classList.remove("active");
+
+});
+
+
+
+
+this.parentElement.classList.add("active");
+
+
+
+});
+
+
+});
+
+
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
